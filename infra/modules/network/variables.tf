@@ -1,20 +1,20 @@
-variable "vpc_cidr" {
+variable "vpc_id" {
   type = string
 }
 
-variable "public_subnet_1_cidr" {
+variable "private_subnet_1_id" {
   type = string
 }
 
-variable "public_subnet_2_cidr" {
+variable "private_subnet_2_id" {
   type = string
 }
 
-variable "private_subnet_1_cidr" {
+variable "ecs_security_group_id" {
   type = string
 }
 
-variable "private_subnet_2_cidr" {
+variable "target_group_arn" {
   type = string
 }
 
